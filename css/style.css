@@ -12,6 +12,23 @@
 /* ******************************** */
 
 /* Colores */
-
+:root{
+    --color-blanco: white;
+    --color-negro: black;
+    --color-rojo: red;
+}
 /* ******************************** */
 
+.barra{
+    display: flex;
+    justify-content: flex-start;
+    /* border-color: blue;
+    border-bottom: blue;
+    border-right: blueviolet; */
+}
+.boton{
+    background-color: #0f4cb1;
+    color: var(--color-blanco);
+    width: 100px;
+    text-align: start;
+}
